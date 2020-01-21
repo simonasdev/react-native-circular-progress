@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Animated, Easing } from 'react-native';
 import CircularProgress from './CircularProgress';
+import Animated, { Easing } from 'react-native-reanimated';
 const AnimatedProgress = Animated.createAnimatedComponent(CircularProgress);
 
 export default class AnimatedCircularProgress extends React.PureComponent {
